@@ -1,0 +1,70 @@
+# ===== Python (server) =====
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+server/venv/
+server/env/
+venv/
+env/
+
+# Distribution / packaging
+server/build/
+server/dist/
+server/*.egg-info/
+server/*.egg
+server/.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+server/*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm project files
+.idea/
+
+# VS Code settings (optional)
+.vscode/
+
+# ===== Node / JavaScript (client) =====
+
+# dependencies
+client/node_modules/
+
+# build output
+client/build/
+client/dist/
+
+# logs
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# dotenv environment variables file
+client/.env
+
+# misc
+.DS_Store
+Thumbs.db
+
+# Optional: If your client uses React or other frameworks, add more ignores here
+
