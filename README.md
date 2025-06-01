@@ -63,6 +63,7 @@ py -3.11 -m venv venv
 # Activate the virtual environment
 (vary with terminal)
 venv\Scripts\activate
+bash: source venv/Scripts/activate
 
 # Install Python dependencies
 pip install -r requirements.txt
