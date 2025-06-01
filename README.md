@@ -1,4 +1,4 @@
-# 🧠 Deepfake Detection Project
+# Deepfake Detection Project (AI, DIPS, Full STACK)
 
 This project is a full-stack web application designed to detect deepfake images using a machine learning model. The system consists of:
 - A **frontend client** built with the React framework (Next.js).
