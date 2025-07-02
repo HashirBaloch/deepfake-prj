@@ -1,9 +1,9 @@
-# Deepfake Detection Project (AI, DIPS, Full STACK)
+# Deepfake Detection Project (Full STACK)
 
 This project is a full-stack web application designed to detect deepfake images using a machine learning model. The system consists of:
 - A **frontend client** built with the React framework (Next.js).
 - A **backend server** using FastAPI to load and run the TensorFlow models.
-
+- MongoDB local  for statistics of image and results
 ---
 
 ## 🚀 Technologies Used
@@ -25,14 +25,17 @@ deepfake-prj/
 ---
 
 ## ⚙️ Requirements
-
-- Python 3.9 / 3.11(preffered)
-- FastAPI
-- Uvicorn
-- TensorFlow / Keras
-- NumPy
-- Pillow
-- Node.js 14+ and npm (for frontend)
+ System Requirements 
+For Users (Frontend Use): 
+• A modern web browser (Chrome, Firefox, Edge) 
+• Internet connection (if hosted online) 
+• Desktop or mobile device 
+For Developers (Local Setup): 
+• Node.js (v18+) 
+• Python (v3.10+) 
+• pip (latest) 
+• MongoDB (local or MongoDB Atlas) 
+• Git (optional, for cloning repository) 
 
 ---
 
@@ -72,3 +75,25 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
+5. How to Use the Application 
+Home Page (/) 
+• Introduction to the project 
+• Quick navigation to upload and stats pages 
+Image Upload Page (/model) 
+• Drag & drop or browse to upload any image 
+• Backend runs model to detect deepfake 
+• Displays result: Real / Fake + Confidence 
+Statistics Page (/stats) 
+• Pie chart of real vs fake detections 
+• Confidence trends and record history 
+Code Page (/code) 
+• GitHub repository link 
+• View or contribute to open-source code
+
+This project was created for academic purposes under the Full Stack Web Development 
+curriculum. It demonstrates practical implementation of: 
+• REST APIs 
+• AI/ML model integration 
+• Client-server communication 
+• Secure environment variable usage 
+• Database operations
