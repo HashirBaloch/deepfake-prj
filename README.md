@@ -74,22 +74,23 @@ pip install -r requirements.txt
 # Start the FastAPI development server
 uvicorn main:app --reload
 ```
-
-5. How to Use the Application 
+```
+ How to Use the Application
+```
 Home Page (/) 
-• Introduction to the project 
-• Quick navigation to upload and stats pages 
+ • Introduction to the project 
+ • Quick navigation to upload and stats pages 
 Image Upload Page (/model) 
-• Drag & drop or browse to upload any image 
-• Backend runs model to detect deepfake 
-• Displays result: Real / Fake + Confidence 
+ • Drag & drop or browse to upload any image 
+ • Backend runs model to detect deepfake 
+ • Displays result: Real / Fake + Confidence 
 Statistics Page (/stats) 
-• Pie chart of real vs fake detections 
-• Confidence trends and record history 
+ • Pie chart of real vs fake detections 
+ • Confidence trends and record history 
 Code Page (/code) 
-• GitHub repository link 
-• View or contribute to open-source code
-
+ • GitHub repository link 
+ • View or contribute to open-source code
+```
 This project was created for academic purposes under the Full Stack Web Development 
 curriculum. It demonstrates practical implementation of: 
 • REST APIs 
@@ -97,3 +98,4 @@ curriculum. It demonstrates practical implementation of:
 • Client-server communication 
 • Secure environment variable usage 
 • Database operations
+```
