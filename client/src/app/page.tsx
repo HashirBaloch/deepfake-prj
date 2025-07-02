@@ -36,6 +36,15 @@ export default function HomePage() {
             Model Code
           </Button>
         </div>
+        <div className="flex flex-col gap-4 mt-8">
+          <h3 className="text-xl font-semibold">Features:</h3>
+          <ul className="list-disc list-inside text-lg">
+            <li>Upload any size image – automatic resizing for detection</li>
+            <li>Fast and accurate deepfake detection (84%+ accuracy)</li>
+            <li>Statistics dashboard for all detections</li>
+            <li>Open source: <a className="text-warning underline" href="https://github.com/HashirBaloch/deepfake-prj" target="_blank" rel="noopener noreferrer">View on GitHub</a></li>
+          </ul>
+        </div>
       </div>
       <Image
         priority

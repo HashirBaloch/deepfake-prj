@@ -66,7 +66,7 @@ export default function Navigation() {
             as={Link}
             color="warning"
             variant="ghost"
-            href="https://github.com/HashirBaloch/deepfake-eye"
+            href="https://github.com/HashirBaloch/deepfake-prj"
           >
             <GithubIcon />
           </Button>

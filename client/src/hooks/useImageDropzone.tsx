@@ -24,7 +24,6 @@ export const useImageDropzone = () => {
     accept: {
       'image/jpeg': ['.jpeg', '.jpg'],
     },
-    maxSize: 20 * 1000,
     maxFiles: 1,
     onDrop,
   });
